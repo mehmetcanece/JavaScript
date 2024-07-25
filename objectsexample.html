@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examples</title>
+
+</head>
+<body>
+  
+
+
+  <script>
+
+    const product1 = {
+      name: 'Top',
+      price: 100
+    };
+    const product2 = {
+      name: 'Top',
+      price: 100
+    };
+      const price1 = product1.price;
+      const price2 = product2.price;
+      const name1 = product1.name;
+      const name2 = product2.name;
+
+
+    function comparePrice(product1, product2){
+
+      
+
+      if(price1 < price2){
+        console.log(`${name1} is less expensive than ${name2}`);
+      }
+      else {
+        console.log(`${name1} is less expensive than ${name2}`);
+      };
+    };
+
+    function isSameProduct(product1,product2){
+      if(price1 == price2 && name1 == name2){
+        return true;
+      }
+      else{
+        return false;
+      }
+    };
+
+    console.log(isSameProduct(product1,product2));
+    console.log(comparePrice(product1,product2));
+
+    console.log('Good Morning!'.toLowerCase());
+    console.log('MEHMETCcan'.repeat(5));
+
+  </script>
+</body>
+</html>

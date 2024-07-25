@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>
+  <title>Advanced Funcitons</title>
+</head>
+<body>
+
+    <button onclick="
+      
+      " class="js-button">
+      CLICK
+    </button>
+
+  <script>
+
+ /*  const buttonElement = document.querySelector('.js-button');
+
+   const eventListener = () => {
+    console.log('clicked');
+   };
+
+   buttonElement.addEventListener('click', eventListener);
+
+   buttonElement.removeEventListener('click', eventListener);
+
+   buttonElement.addEventListener('click', () => {
+    console.log('clicked2');
+   });
+*/
+
+
+   console.log([1,-3,5].filter((value,index) =>{
+   // if(value < 0){
+   //   return false;
+   // }
+   // else{
+   //   return true;
+   // }
+    return value >= 0; 
+   }));
+   
+   
+   console.log([1,1,3].map((value, index)=> { //map arrayi başka bir arraye transform eder
+    return value * 2; 
+   }));
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /*
+    function greeting(){
+      console.log('Hello World');
+    }
+    greeting();
+
+
+    const function1 = function() { //anonymous function isimsiz fonksiyon
+      console.log('Hello World2');
+    }
+
+    console.log(function1);
+
+    console.log(typeof function1);
+    
+    function1();
+
+
+    const object1 = {
+      num: 2,
+      fun: function() {
+        console.log('Hello World3');
+      }
+    }
+
+    object1.fun();
+
+    function display(param){
+      console.log(param);
+    }
+
+    display(2); //passing a value into function
+
+
+    function run(param){ //passing a function into function callback function
+      param();
+    }
+
+    run(function(){
+      console.log('Hello World4');
+    });
+    */
+
+    /*
+    setTimeout(function(){
+      console.log('timeout');
+    }, 3000);
+
+    console.log('next line')
+    
+    setInterval(function(){
+      console.log('interval');
+    }, 1000); //runs every 1 second
+
+    console.log('next line2')
+
+    */
+/*
+
+    [
+      'make dinner',
+      'wash dishes',
+      'watch youtube'
+    ].forEach((value , index) => {
+      if(value === 'wash dishes'){
+        return;
+      } 
+
+
+      console.log(value);
+      console.log(index);
+
+    }); // forEach is a callback function for loop gibi çalışır.
+
+    const regularFunction = function(param,param2){
+      console.log('Hello World4');
+    };
+
+    const arrowFunction = (param,param2) => {
+      console.log('Hello World5');
+      return 5;
+    };
+
+    arrowFunction();
+
+
+    const oneParam = param => {
+      console.log(param+1);
+    };
+
+    oneParam(5);
+
+
+    const oneLine = () =>  2+3;  // tek satırsa süslü parametre ve return kullanmaya gerek yok
+
+    console.log(oneLine());
+
+
+    const object2 = {
+      method: () => {
+
+      },
+      method(){
+
+      }    // method: function(){} ile aynı
+    }
+*/
+
+
+
+  </script>
+</body>
+</html>
